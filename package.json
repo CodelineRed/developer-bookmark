@@ -2,7 +2,11 @@
     "name": "developer-bookmark",
     "version": "1.0.0",
     "description": "Developer Bookmark",
-    "keywords": ["developer","bookmark","sites"],
+    "keywords": [
+        "developer",
+        "bookmark",
+        "sites"
+    ],
     "author": {
         "name": "InsanityMeetsHH",
         "email": "software@insanitymeetshh.net"

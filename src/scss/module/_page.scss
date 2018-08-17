@@ -15,3 +15,30 @@ h1 {
     }
 }
 
+.bookmark a {
+    color: $white;
+}
+
+.btn-code {
+    @extend .btn-primary;
+}
+
+.btn-generator {
+    @extend .btn-success;
+}
+
+.btn-tool {
+    @extend .btn-info;
+}
+
+.btn-docu {
+    @extend .btn-secondary;
+}
+
+.btn-code-docu {
+    background: $primary;
+    background: -moz-linear-gradient(left, $secondary 0%,$primary 50%,$secondary 100%);
+    background: -webkit-linear-gradient(left, $secondary 0%,$primary 50%,$secondary 100%);
+    background: linear-gradient(to right, $secondary 0%,$primary 50%,$secondary 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='$secondary',GradientType=1);
+}
