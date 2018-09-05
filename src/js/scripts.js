@@ -14,6 +14,14 @@
             } else {
                 $('.bookmark a').parent().show();
             }
+            
+            $('.special-group').each(function() {
+                if (!$(this).find('div:visible').length) {
+                    $(this).prev().hide();
+                } else {
+                    $(this).prev().show();
+                }
+            });
         });
         
         $('.bookmark a').each(function(index) {
