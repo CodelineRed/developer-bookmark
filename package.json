@@ -8,17 +8,17 @@
         "sites"
     ],
     "author": {
-        "name": "InsanityMeetsHH",
-        "email": "software@insanitymeetshh.net"
+        "name": "CodelineRed",
+        "email": "software@codelinered.net"
     },
     "bugs": {
-        "url": "https://github.com/InsanityMeetsHH/developer-bookmark/issues"
+        "url": "https://github.com/CodelineRed/developer-bookmark/issues"
     },
     "license": "MIT",
-    "homepage": "http://gulp.insanitymeetshh.net",
+    "homepage": "https://devbook.codelinered.net",
     "repository": {
         "type": "git",
-        "url": "git://github.com/InsanityMeetsHH/developer-bookmark.git"
+        "url": "git://github.com/CodelineRed/developer-bookmark.git"
     },
     "devDependencies": {
         "browser-sync": "^2.24.6",
